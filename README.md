@@ -35,3 +35,10 @@ Go
 
 SQL
 …and more.
+
+
+
+
+
+https://www.python.org/
+python interpreter => launch interactive shell  =>REPEL : READ, EVALUATE, PRINT AND LOOP
