@@ -42,3 +42,40 @@ SQL
 
 https://www.python.org/
 python interpreter => launch interactive shell  =>REPEL : READ, EVALUATE, PRINT AND LOOP
+
+
+
+
+Total Built-in Data Types
+
+There are 14 main built-in data types:
+
+int
+
+float
+
+complex
+
+str
+
+list
+
+tuple
+
+range
+
+dict
+
+set
+
+frozenset
+
+bool
+
+bytes
+
+bytearray
+
+memoryview
+
+NoneType
