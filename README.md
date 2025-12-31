@@ -227,3 +227,6 @@ range()	Generates a sequence of numbers	range(1,5)
 In Simple Words:
 
 Basic functions in Python help you display data, take input, check types, convert values, and perform common operations easily.
+
+
+LINK FOR BULID IN FUNCTION:https://docs.python.org/3/library/functions.html
