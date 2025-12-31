@@ -149,3 +149,60 @@ Data analysis
 Dashboards and reports
 
 Highlighting errors or important values
+
+
+
+
+Python for Loop with break, continue, pass, and enumerate()
+
+A for loop is used to iterate over a sequence such as a list, tuple, string, or range.
+
+1. break Statement
+
+Stops the loop completely when a condition is met.
+
+for i in range(1, 6):
+    if i == 4:
+        break
+    print(i)
+
+2. continue Statement
+
+Skips the current iteration and continues with the next one.
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+3. pass Statement
+
+Acts as a placeholder. It does nothing but keeps the program running without errors.
+
+for i in range(1, 6):
+    if i == 3:
+        pass
+    print(i)
+
+4. enumerate() Function
+
+enumerate() adds a counter to an iterable and returns both the index and value.
+
+fruits = ["Apple", "Banana", "Mango"]
+
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+
+Output:
+
+0 Apple
+1 Banana
+2 Mango
+
+Summary
+Feature	Purpose
+break	Stops the loop
+continue	Skips an iteration
+pass	Does nothing (placeholder)
+enumerate()	Returns index and value together
