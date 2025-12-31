@@ -206,3 +206,24 @@ break	Stops the loop
 continue	Skips an iteration
 pass	Does nothing (placeholder)
 enumerate()	Returns index and value together
+
+Basic Functions of Python
+
+Python provides several built-in functions that perform common tasks and make programming easier.
+
+Some Important Basic Functions:
+Function	Purpose	Example
+print()	Displays output on the screen	print("Hello")
+input()	Takes input from the user	name = input("Enter name: ")
+type()	Returns the data type of a value	type(10)
+len()	Returns length of an object	len("Python")
+int()	Converts to integer	int("5")
+float()	Converts to float	float("3.2")
+str()	Converts to string	str(100)
+sum()	Returns total of values	sum([1,2,3])
+max()	Returns highest value	max(10, 50, 20)
+min()	Returns smallest value	min(10, 50, 20)
+range()	Generates a sequence of numbers	range(1,5)
+In Simple Words:
+
+Basic functions in Python help you display data, take input, check types, convert values, and perform common operations easily.
