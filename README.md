@@ -79,3 +79,34 @@ bytearray
 memoryview
 
 NoneType
+
+
+Python Dictionary (dict) – Brief Explanation
+
+A dictionary in Python is a built-in data type used to store data in key–value pairs.
+
+Each value is accessed using its unique key.
+
+Dictionaries are unordered, changeable (mutable), and do not allow duplicate keys.
+
+Example:
+student = {
+    "name": "Alex",
+    "age": 20,
+    "course": "Python"
+}
+
+
+In this example:
+
+Keys: name, age, course
+
+Values: "Alex", 20, "Python"
+
+Why use a dictionary?
+
+Fast data lookup using keys
+
+Well-structured and easy to manage data
+
+Commonly used to store records, settings, and configurations
