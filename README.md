@@ -110,3 +110,42 @@ Fast data lookup using keys
 Well-structured and easy to manage data
 
 Commonly used to store records, settings, and configurations
+
+
+
+
+
+Conditional Formatting in Python
+
+Conditional formatting means changing the appearance of data based on certain conditions.
+In Python, it is mainly used while working with Excel files and data tables to highlight values that meet specific rules.
+
+It helps to easily identify important data such as high values, low values, errors, or duplicates.
+
+Example (Using Pandas & Excel)
+import pandas as pd
+
+data = {'Marks': [45, 67, 89, 30, 95]}
+df = pd.DataFrame(data)
+
+def highlight(val):
+    return 'background-color: lightgreen' if val > 80 else ''
+
+df.style.applymap(highlight)
+
+
+Explanation:
+
+Marks above 80 will be highlighted in green.
+
+Others remain unchanged.
+
+Where it is used:
+
+Excel report generation
+
+Data analysis
+
+Dashboards and reports
+
+Highlighting errors or important values
