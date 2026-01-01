@@ -230,3 +230,14 @@ Basic functions in Python help you display data, take input, check types, conver
 
 
 LINK FOR BULID IN FUNCTION:https://docs.python.org/3/library/functions.html
+
+
+
+
+# retrieve today's weekday (0=Monday, 6=Sunday)
+print("TODAY'S WEEKDAY #:", today.weekday())
+
+DAYS = ["MON", "TUE", "WED", "THURS", "FRI", "SAT", "SUN"]
+
+print("Which is:", DAYS[today.weekday()])
+
