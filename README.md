@@ -353,3 +353,56 @@ Convert user input into dates
 Validate date formats
 
 Prepare dates for calculations (timedelta)
+
+
+Difference Between strftime() and strptime()
+
+Function	Meaning	Used for
+
+strftime()	String Format Time	Convert a date → into a string
+strptime()	String Parse Time	Convert a string → into a date
+strftime() → Date ➜ String
+
+Use when you want to display a date nicely.
+
+from datetime import datetime
+
+now = datetime.now()
+formatted = now.strftime("%d-%m-%Y")
+
+print(formatted)
+
+
+Output:
+
+01-01-2026
+
+
+strptime() → String ➜ Date
+
+Use when you receive text and want to convert it to a real date.
+
+from datetime import datetime
+
+text = "01-01-2026"
+date_obj = datetime.strptime(text, "%d-%m-%Y")
+
+print(date_obj)
+
+
+Output:
+
+2026-01-01 00:00:00
+
+Easy way to remember
+
+f in strftime = format (make it pretty)
+p in strptime = parse (read the text)
+
+So:
+
+strftime() → formats dates into strings
+
+strptime() → reads strings and makes dates
+
+website for date and time:https://www.strfti.me/
