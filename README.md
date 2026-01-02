@@ -304,3 +304,52 @@ Tracking time differences
 Working with calendars
 
 Date arithmetic
+
+
+
+What is strptime() in Python?
+
+strptime() stands for:
+
+String Parse Time
+
+It is used to convert a date/time written as a string into a datetime object so Python can understand and work with it.
+
+Import
+from datetime import datetime
+
+Basic Example
+from datetime import datetime
+
+date_string = "2026-01-01"
+date_object = datetime.strptime(date_string, "%Y-%m-%d")
+
+print(date_object)
+
+
+Output
+
+2026-01-01 00:00:00
+
+Common format codes
+Code	Meaning	Example
+%Y	Year	2026
+%m	Month	01
+%d	Day	01
+%H	Hour (24)	14
+%M	Minute	30
+%S	Second	45
+With time
+text = "01-01-2026 14:30:45"
+dt = datetime.strptime(text, "%d-%m-%Y %H:%M:%S")
+print(dt)
+
+Why strptime() is useful
+
+Read dates from files
+
+Convert user input into dates
+
+Validate date formats
+
+Prepare dates for calculations (timedelta)
