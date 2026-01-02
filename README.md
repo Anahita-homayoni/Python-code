@@ -241,3 +241,66 @@ DAYS = ["MON", "TUE", "WED", "THURS", "FRI", "SAT", "SUN"]
 
 print("Which is:", DAYS[today.weekday()])
 
+
+🕒 What is timedelta in Python?
+
+In Python, timedelta is a class from the datetime module used to represent a duration of time — the difference between two dates or times.
+
+It lets you add or subtract time such as days, hours, minutes, or seconds from a date.
+
+Importing timedelta
+from datetime import timedelta
+
+Creating a timedelta
+from datetime import timedelta
+
+time_gap = timedelta(days=5, hours=3, minutes=30)
+print(time_gap)
+
+
+Output:
+
+5 days, 3:30:00
+
+Adding time to a date
+from datetime import date, timedelta
+
+today = date.today()
+future = today + timedelta(days=10)
+
+print("Today:", today)
+print("After 10 days:", future)
+
+Subtracting time from a date
+from datetime import date, timedelta
+
+today = date.today()
+past = today - timedelta(days=7)
+
+print("7 days ago:", past)
+
+Finding difference between two dates
+from datetime import date
+
+d1 = date(2026, 1, 1)
+d2 = date(2026, 1, 15)
+
+difference = d2 - d1
+print(difference)
+
+
+Output:
+
+14 days, 0:00:00
+
+Why timedelta is useful
+
+Scheduling tasks
+
+Calculating deadlines
+
+Tracking time differences
+
+Working with calendars
+
+Date arithmetic
