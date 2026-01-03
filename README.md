@@ -318,8 +318,17 @@ It is used to convert a date/time written as a string into a datetime object so 
 Import
 from datetime import datetime
 
+
+
 Basic Example
 from datetime import datetime
+
+
+date_string = "2026-01-01"
+date_object = datetime.strptime(date_string, "%Y-%m-%d")
+
+print(date_object)
+
 
 date_string = "2026-01-01"
 date_object = datetime.strptime(date_string, "%Y-%m-%d")
@@ -406,3 +415,12 @@ strftime() → formats dates into strings
 strptime() → reads strings and makes dates
 
 website for date and time:https://www.strfti.me/
+
+# create a plain text calendar
+
+
+c = calendar.TextCalendar(calendar.WEDNESDAY)
+thestr = c.formatmonth(2026, 1, 0, 0)
+print(thestr)
+
+
