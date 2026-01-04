@@ -423,4 +423,10 @@ c = calendar.TextCalendar(calendar.WEDNESDAY)
 thestr = c.formatmonth(2026, 1, 0, 0)
 print(thestr)
 
+RETRIEEVING INTERNET DATA
+
+import urllib.request
+
+web_url = urllib.request.urlopen("http://www.example.com")
+print("result code:", web_url.getcode())
 
